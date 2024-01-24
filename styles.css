@@ -1,0 +1,76 @@
+body {
+    background-color: #3cb5cf;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-box,
+.contact-box,
+.calendar-box,
+.values-box {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.profile-img,
+.social-img,
+.calendar-img,
+.values-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #000;
+    margin-top: 10px;
+}
+
+.contact-box,
+.calendar-box,
+.values-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item,
+.calendar-item,
+.values-item {
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box a,
+.calendar-box a,
+.values-box a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.contact-box img,
+.calendar-box img,
+.values-box img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-box span,
+.calendar-box span,
+.values-box span {
+    color: #001F3F;
+    font-weight: bold;
+}
